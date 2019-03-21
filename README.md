@@ -1,3 +1,3 @@
 # kanban
 
-Firbase URL: `https://kanban-fd340.firebaseapp.com/`
+Firebase URL: `https://kanban-fd340.firebaseapp.com/`
