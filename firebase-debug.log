@@ -1,0 +1,17 @@
+[debug] [2019-03-21T08:39:27.479Z] ----------------------------------------------------------------------
+[debug] [2019-03-21T08:39:27.481Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2019-03-21T08:39:27.481Z] CLI Version:   6.5.0
+[debug] [2019-03-21T08:39:27.481Z] Platform:      linux
+[debug] [2019-03-21T08:39:27.481Z] Node Version:  v11.9.0
+[debug] [2019-03-21T08:39:27.481Z] Time:          Thu Mar 21 2019 15:39:27 GMT+0700 (Western Indonesia Time)
+[debug] [2019-03-21T08:39:27.481Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-21T08:39:27.486Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-21T08:39:27.486Z] > authorizing via signed-in user
+[debug] [2019-03-21T08:39:27.486Z] [iam] checking project kanban-fd340 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-03-21T08:39:27.488Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/kanban-fd340:testIamPermissions  
+
+[debug] [2019-03-21T08:39:38.618Z] Error: getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com cloudresourcemanager.googleapis.com:443
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:58:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com cloudresourcemanager.googleapis.com:443
